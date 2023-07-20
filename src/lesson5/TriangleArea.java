@@ -27,9 +27,9 @@ public class TriangleArea {
 		System.out.println("底辺:" + bottom + " " + "高さ:" + high + " "
 				+ "の三角形の面積は" + ans + "です。");
 		
-		//求めた三角形の三角柱の体積を求める
-		int volumeHigh = 56;
-		triangleVolume(ans, volumeHigh);
+//		//求めた三角形の三角柱の体積を求める
+//		int volumeHigh = 56;
+//		triangleVolume(ans, volumeHigh);
 	}
 	
 	/**

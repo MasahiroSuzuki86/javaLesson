@@ -8,6 +8,7 @@ public class Rensyu5_3 {
 	 */
 	public static void main(String[] args) {
 		methodA();
+		System.out.println("methodAを呼び出しました。");
 	}
 	
 	/**
@@ -17,6 +18,7 @@ public class Rensyu5_3 {
 	public static void methodA() {
 		System.out.println("methodA");
 		methodB();
+		System.out.println("methodBを呼び出しました。");
 	}
 	
 	/**
