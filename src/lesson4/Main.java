@@ -2,11 +2,11 @@ package lesson4;
 
 public class Main {
 	public static void main(String[] args) {
-		
+
 		//配列の中には1,2,3が入っている
 		//8832番地がArrayAに入ってる
 		int[] arrayA = {1, 2, 3};
-		int [] arrayB;
+		int[] arrayB;
 		
 		//配列Bに配列Aを代入
 		//配列Bに配列Aの住所を代入
