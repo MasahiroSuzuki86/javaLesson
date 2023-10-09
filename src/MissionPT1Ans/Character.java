@@ -1,4 +1,4 @@
-package MissionPT1;
+package MissionPT1Ans;
 
 /**
  * 全てのキャラクターのスーパークラス
@@ -11,12 +11,6 @@ public abstract class Character {
 	String name;
 	/* HP */
 	int hp;
-	/*　攻撃力 */
-	int ap;
-	/* 防御力 */
-	int dp;
-	/* 魔力 */
-	int mp;
 	
 	/**
 	 * キャラクターを攻撃するためのクラス
