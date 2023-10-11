@@ -64,6 +64,9 @@ public class Warrior extends Character {
 		
 		//減らしたあとのHPを引数のHPにセットする
 		character.setHp(afterHp);
+		
+		System.out.println(character.getName() + "に" + attack + "のダメージ！");
+		System.out.println(character.getName() + "のHP、残り" + character.getHp() + "。");
 	}
 
 	/**
