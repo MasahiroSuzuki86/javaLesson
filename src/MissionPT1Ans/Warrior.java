@@ -38,6 +38,11 @@ public class Warrior extends Character {
 		System.out.println(character.getName() + "のHP、残り" + character.getHp() + "。");
 	}
 	
+	/**
+	 * 竜巻斬り
+	 * 引数のキャラクターからHPを減らす
+	 * @param character
+	 */
 	public void tatsumakiSlash(Character character) {
 		System.out.println(this.getName() + "の竜巻斬り！");
 		//減らすHPの計算をする
