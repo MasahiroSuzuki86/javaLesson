@@ -1,12 +1,18 @@
 package MissionPT1Ans;
 
+/**
+ * MissionPT1サンプルコード
+ * Grapplerクラス
+ * @author suzukimasahiro
+ *
+ */
 public class Grappler extends Character {
 	
 	/* 集中力 */
 	private int concentration;
 	
 	/**
-	 * 
+	 * 引数のキャラクタークラスに攻撃してHPを減らすメソッド
 	 */
 	@Override
 	public void attack(Character character) {
@@ -56,6 +62,14 @@ public class Grappler extends Character {
 		//減らした後のHPをセット
 		character.setHp(afterHp);
 		System.out.println(character.getName() + "のHP、残り" + character.getHp() + "。");
+		
+		//concentrationから5を減らす
+		int aftConcentration = this.getConcentration() - 5;
+		if(aftConcentration < 0) {
+			aftConcentration = 0;
+		}
+		//concentrationに計算した値をセット
+		this.setConcentration(aftConcentration);
 		
 	}
 
